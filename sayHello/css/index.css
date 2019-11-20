@@ -1,0 +1,159 @@
+header {
+    margin: 50px auto 45px;
+}
+
+header h1 {
+    text-align: center;
+    line-height: 1.5;
+}
+
+header strong a {
+    font-size: 52px;
+    color: #28A745;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+header strong a:hover {
+    color: #1E7E34;
+}
+
+header small {
+    font-weight: 400;
+    color: #6C757D;
+    font-size: 24px;
+}
+
+.main label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.main input, .main textarea {
+    display: block;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+    transition: all .3s;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.main input {
+    height: 40px;
+}
+
+.main textarea {
+    height: 72px;
+}
+
+.main input:focus, .main textarea:focus {
+    box-shadow: 0 0 3px 3px rgba(102, 175, 233, .7);
+}
+
+.main button {
+    width: 80px;
+    height: 40px;
+    background-color: #6C757D;
+    border-radius: 4px;
+    color: #fff;
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background .2s;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main button:hover {
+    background-color: #343a40;
+}
+
+.main dl {
+    margin-top: 25px;
+}
+
+.main dl dt {
+    font-size: 22px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.main dl dt a {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #007bff;
+}
+
+.main dl dt a:hover {
+    text-decoration: underline;
+}
+
+.main dl dd {
+    border: 1px solid #ccc;
+    padding: 14px 20px 14px;
+    position: relative;
+    color: #28A745;
+    font-size: 20px;
+    margin: 0 auto;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.main dl dd:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.main dl dd:hover {
+    background-color: #F5F5F5;
+}
+
+.main dl span {
+    color: #6C757D;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.main dl i {
+    position: absolute;
+    right: 16px;
+    font-size: 12px;
+    font-style: normal;
+    color: #6C757D;
+}
+
+.main dl p {
+    color: #000;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.btm {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    margin-top: 4px;
+}
